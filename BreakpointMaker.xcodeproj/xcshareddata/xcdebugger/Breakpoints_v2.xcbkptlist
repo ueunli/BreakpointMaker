@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A969AD94-B1FF-4D1D-A16B-6FBB92F95D77"
+   type = "4"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55310E8A-4F45-4813-A1EB-67C8FC1A9011"
+            shouldBeEnabled = "Yes"
+            condition = "$0 &gt; 10"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BreakpointMaker/Breakpoints/00_File.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "someLongMethod()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8ECB1C86-782A-41E0-A250-E3EC7004A490"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "2"
+            continueAfterRunningActions = "No"
+            filePath = "BreakpointMaker/Breakpoints/00_File.swift"
+            startingColumnNumber = "90"
+            endingColumnNumber = "95"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "someWideMethod()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B93412-1195-4DEA-BB3E-D09CBEE68126"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BreakpointMaker/ModalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "A54A2DBD-3A05-432C-8079-2EA8A6CE312C"
+            shouldBeEnabled = "Yes"
+            nameForDebugger = "Exception_BP"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
+                  <ActionContent
+                     consoleCommand = "po $arg1">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SwiftErrorBreakpoint">
+         <BreakpointContent
+            uuid = "EC7AF4B6-10EB-407A-BE84-EB5E9A4C0CA5"
+            shouldBeEnabled = "Yes"
+            nameForDebugger = "SwiftErrorBP"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            typeName = "DecodingError">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            uuid = "076990F7-38A5-454D-84A6-D644316D943E"
+            shouldBeEnabled = "Yes"
+            nameForDebugger = "SymbolicBP"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "ViewController.someMethod">
+            <Locations>
+               <Location
+                  uuid = "076990F7-38A5-454D-84A6-D644316D943E - 62e3fbca10f4fb6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakpointMaker.ViewController.someMethod() -&gt; ()"
+                  moduleName = "BreakpointMaker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junely/Documents/RnD/BreakpointMaker/BreakpointMaker/Breakpoints/03_Symbolic.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21">
+               </Location>
+               <Location
+                  uuid = "076990F7-38A5-454D-84A6-D644316D943E - 66575949dbbd6cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "@objc BreakpointMaker.ViewController.someMethod() -&gt; ()"
+                  moduleName = "BreakpointMaker.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.RuntimeIssueBreakpoint">
+         <BreakpointContent
+            uuid = "56971C94-DAE2-4249-B086-58F9C13EF175"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            type = "65535">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.IDEConstraintErrorBreakpoint">
+         <BreakpointContent
+            uuid = "A48F72DD-6D38-4AB6-A083-B97B18E02281"
+            shouldBeEnabled = "Yes"
+            nameForDebugger = "ConstraintErrorBP"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.IDETestFailureBreakpoint">
+         <BreakpointContent
+            uuid = "5458AEB5-6280-47FC-B8E8-612AC9152856"
+            shouldBeEnabled = "Yes"
+            nameForDebugger = "TestFailureBP"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
